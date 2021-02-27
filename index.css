@@ -1,0 +1,128 @@
+body {
+    background-image: url(assets/fondo.png);
+    background-color: #321ac6;
+    color: #fff;
+    font-family: 'montserrat', sans-serif;
+}
+
+header {
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.side {
+    width: 50%;
+    text-align: center;
+}
+
+.content {
+    width: 50%;
+    margin: auto;
+}
+
+.titulito {
+    font-weight: 900;
+    width: 400px;
+}
+
+.parrafito {
+    font-weight: 400;
+    width: 370px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.botoncito {
+    font-weight: 700;
+    color: #321ac6;
+    padding: 13px 40px 13px 40px;
+    border-radius: 50px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px black;
+}
+
+.botoncito:hover {
+    transition-duration: 0.4s;
+    background-color: #e7e7e7;
+}
+
+i.lni {
+    font-size: 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    padding-bottom: 25px;
+}
+
+footer button {
+    border-radius: 200%;
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+    background-color: #321ac6;
+    color: white;
+    margin-right: 15px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    body {
+        background-image: url(assets/fondo-mobile.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    header {
+        padding-top: 20px;
+    }
+    header img {
+        width: 120px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .side {
+        width: auto;
+    }
+    div img {
+        width: 150px;
+    }
+    .content {
+        margin: auto;
+        width: 70%;
+    }
+    .titulito {
+        width: 250px;
+        font-size: 20px;
+    }
+    .parrafito {
+        width: auto;
+        margin-bottom: 10px;
+    }
+    footer {
+        justify-content: center;
+        padding: 30px 0 15px 0;
+    }
+    footer button {
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+    }
+    i.lni {
+        font-size: 1rem;
+    }
+}
